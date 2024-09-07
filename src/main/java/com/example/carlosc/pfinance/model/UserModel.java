@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class User {
+public class UserModel {
 
   @Id
   @GeneratedValue(strategy = GenerationType.SEQUENCE)
